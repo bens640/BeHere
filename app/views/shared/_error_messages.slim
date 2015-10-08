@@ -1,0 +1,7 @@
+- if @user.errors.any?
+    .text-center
+      |The form contains #{pluralize(@user.errors.count, "error")}
+    ul
+      - @user.errors.full_messages.each do |m|
+        li.text-center
+          = m

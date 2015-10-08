@@ -1,0 +1,19 @@
+p#notice = notice
+= render 'posts/event'
+- if current_user
+  - if !@guest
+    - if current_user.id != @post.user_id
+      = render 'guests/form'
+  = link_to 'Remove me from the list', @guest, :method => :delete
+  - if owner(@post, current_user) || guest?(@guests, current_user)
+    h2 Chat Room
+    = render 'messages/form'
+    -@messages.each do |m|
+      |<span class="label label-pill label-primary">#{m.user.name}</span>: #{m.message}
+      br/
+    br/
+    = link_to 'Edit', edit_post_path(@post)
+    '|
+    = link_to 'Delete', @post, data: {:confirm => 'Are you sure?'}, :method => :delete
+    br/
+    = link_to 'Back', root_path

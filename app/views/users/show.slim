@@ -1,0 +1,26 @@
+.container
+  h1.text-center
+    = @user_profile.name
+  h2.text-center
+    = @user_profile.email
+  h3.text-center My Events
+  - if current_user.id == @user_profile.id
+    ul.nav.nav-pills
+      li.nav-item
+        a.nav-link.active href= '#owner' Owner
+      li.nav-item
+        a.nav-link href= '#guest' Guest
+      br/
+      br/
+      #owner
+        = render 'posts/events_all'
+      #guest
+        h2 I am a guest
+    br/
+    br/
+    br/
+    br/
+    br/
+    .text-center
+      = link_to "Edit Profile", edit_user_path(current_user)
+    p

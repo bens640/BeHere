@@ -1,0 +1,15 @@
+nav.navbar.navbar-dark.bg-inverse
+  a.navbar-brand BeHere
+  ul.nav.navbar-nav
+    li.nav-item.active
+      = link_to 'home', root_path, class: 'nav-link'
+    li.nav-item
+      - if current_user
+        = link_to 'New Event', new_post_path, class: 'nav-link'
+    .pull-right
+      li.nav-item
+        = link_to_if !logged_in?, 'Sign Up!', signup_path, class: 'nav-link' do
+          = link_to @current_user.name, @current_user, class: 'nav-link'
+      li.nav-item
+        = link_to_if !logged_in?, 'Login', login_path, class: 'nav-link' do
+          = link_to 'Logout', logout_path, class: 'nav-link'

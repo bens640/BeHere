@@ -1,0 +1,35 @@
+.card.text-center
+  .card-header
+    = @post.header
+  ul.list-group.list-group-flush
+    li.list-group-item
+      |Date:
+      = ' ' + date_mdY(@post.date)
+    li.list-group-item
+      |Time:
+      = ' ' + @post.time
+    li.list-group-item
+      |Owner:
+      = ' ' + @post.user.name.to_s
+    li.list-group-item
+      |Guests:
+      -if @post.guests.count > 0
+        - guest_list(@post.guests).each do |g|
+          = link_to g.user.name, user_path(g.user_id)
+          |,
+    li.list-group-item
+      |Location:
+      = ' ' + @post.location.to_s
+    li.list-group-item
+      |Over21?
+      = ' ' + @post.over21.to_s
+    li.list-group-item
+      |Event Type:
+      = ' ' + @post.event_type.to_s
+    li.list-group-item
+      |This event is
+      = ' ' + is_private(@post.private)
+  .card-footer
+    = link_to @post.user.name.to_s, user_path(@post.user)
+br/
+br/

@@ -1,0 +1,22 @@
+.container
+  = form_for @user do |f|
+    = render 'shared/error_messages'
+    .row
+      .col-lg-4.col-sm-offset-4
+        |Name
+        = f.text_field :name, class: 'form-control'
+    .row
+      .col-lg-4.col-sm-offset-4
+        |Email
+        = f.email_field :email, class: 'form-control'
+    .row
+      .col-lg-4.col-sm-offset-4
+        |Password
+        = f.password_field :password, class: 'form-control'
+    .row
+      .col-lg-4.col-sm-offset-4
+        |Password Confirmation
+        = f.password_field :password_confirmation, class: 'form-control'
+    .row
+      .col-lg-4.col-sm-offset-4
+        = f.submit 'Submit', class: 'btn btn-primary btn-block'

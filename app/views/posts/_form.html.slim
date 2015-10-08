@@ -1,0 +1,44 @@
+= simple_form_for @post do |f|
+  - if @post.errors.any?
+    #error_explanation
+      h2 = "#{pluralize(@post.errors.count, "error")} prohibited this post from being saved:"
+      ul
+        - @post.errors.full_messages.each do |message|
+          li = message
+  #header
+    = f.input :header, placeholder: 'Header'
+
+    /= f.input :date, as: :string, class: 'datepicker'
+
+    = f.text_field :date, placeholder: 'Date?', class: 'datepicker form-control'
+    br/
+    = f.text_field :time, placeholder: 'Time?', id: 'timepicker', class: 'form-control'
+    = f.input :over21
+    = f.input :private
+
+    = f.select(:time,Post::E_TYPE,{include_blank:'Type of Event'}, {class: 'c-select'})
+  = f.input :location, id: 'loc-name', :data => {:geo => "name"}
+  = f.input :city, id: 'loc-city', :data => {:geo => "locality"}
+  = f.input :full_address, id: 'loc-full', :data => {:geo => "formatted_address"}
+  .map-wrap
+    = label_tag :search, 'Location of the event'
+    = text_field_tag :search, params[:search], :id => 'geo-input'
+    #aroma Aroma
+  .map-wrap
+    #map
+    #location-info
+      | Name: <span id="loc-name-id" data-geo="name"></span> </br>
+      | Address: <span data-geo="vicinity"></span> </br>
+      | Website: <span data-geo="website"></span> </br>
+      | Phone: <span data-geo="formatted_phone_number"></span> </br>
+      | Hours: <span id="hours"></span> </br>
+      | <span hidden>Full: <span id="loc-full-id" data-geo="formatted_address"></span></span></br>
+      | <span hidden>City: <span id="loc-city-id" data-geo="locality" ></span></span></br>
+
+
+
+  br/
+  br/
+  .actions = f.button :submit, class: 'btn btn-primary btn-block'
+
+- form_for @post do |f|
