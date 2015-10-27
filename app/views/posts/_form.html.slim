@@ -10,13 +10,13 @@
 
     /= f.input :date, as: :string, class: 'datepicker'
 
-    = f.text_field :date, placeholder: 'Date?', class: 'datepicker form-control'
+    = f.text_field :date, value: date_mdY(@post.date), id: 'datepicker', class: ' form-control'
     br/
     = f.text_field :time, placeholder: 'Time?', id: 'timepicker', class: 'form-control'
     = f.input :over21
     = f.input :private
 
-    = f.select(:time,Post::E_TYPE,{include_blank:'Type of Event'}, {class: 'c-select'})
+    = f.select(:event_type,Post::E_TYPE,{include_blank:'Type of Event'}, {class: 'c-select'})
   = f.input :location, id: 'loc-name', :data => {:geo => "name"}
   = f.input :city, id: 'loc-city', :data => {:geo => "locality"}
   = f.input :full_address, id: 'loc-full', :data => {:geo => "formatted_address"}

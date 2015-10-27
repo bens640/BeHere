@@ -10,4 +10,13 @@ class Guest < ActiveRecord::Base
     where(post_id: post.id).
     where(user_id: user.id)}
 
+
+  scope :user, ->(user){
+    where(user_id: user.id) }
+
+  scope :tester, ->(user){
+    where(user_id: user) }
+
+
+
 end

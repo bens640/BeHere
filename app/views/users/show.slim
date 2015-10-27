@@ -3,24 +3,35 @@
     = @user_profile.name
   h2.text-center
     = @user_profile.email
+  h3.text-center User Since #{date_format(@user_profile.created_at)}
+
+  .row
+    img.col-sm-4 src = @user_profile.profile_pic
+    .col-sm-4 = @user_profile.bio
+    ul.list-group.col-sm-4
+      li.list-group-item Age: #{@user_profile.age}
+      li.list-group-item Home City: #{@user_profile.home_city}
+      li.list-group-item Home State: #{@user_profile.home_state}
+  .text-center
+    = link_to "Edit Profile", edit_user_path(current_user), :target => '_blank'
   h3.text-center My Events
   - if current_user.id == @user_profile.id
     ul.nav.nav-pills
       li.nav-item
-        a.nav-link.active href= '#owner' Owner
+        a.nav-link.active data-toggle='tab' role='tab' href= '#owner' Owner
       li.nav-item
-        a.nav-link href= '#guest' Guest
+        a.nav-link data-toggle='tab' role='tab' href= '#guest' Guest
       br/
       br/
-      #owner
-        = render 'posts/events_all'
-      #guest
-        h2 I am a guest
+      .tab-content
+        .tab-pane.active#owner role='tabpanel'
+          = render 'posts/events_all'
+        .tab-pane#guest role='tabpanel'
+          = render 'posts/guest'
     br/
     br/
     br/
     br/
     br/
-    .text-center
-      = link_to "Edit Profile", edit_user_path(current_user)
+
     p

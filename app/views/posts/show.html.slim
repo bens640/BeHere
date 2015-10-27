@@ -4,7 +4,8 @@ p#notice = notice
   - if !@guest
     - if current_user.id != @post.user_id
       = render 'guests/form'
-  = link_to 'Remove me from the list', @guest, :method => :delete
+  - elsif guest?(@guests, current_user)
+    = link_to 'Remove me from the list', @guest, :method => :delete
   - if owner(@post, current_user) || guest?(@guests, current_user)
     h2 Chat Room
     = render 'messages/form'

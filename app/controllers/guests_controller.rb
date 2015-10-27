@@ -28,7 +28,7 @@ class GuestsController < ApplicationController
     @guest = Guest.find(@g)
     @guest.destroy
     respond_to do |format|
-      format.html { redirect_to posts_url, notice: 'Post was successfully destroyed.' }
+      format.html { redirect_to posts_url, notice: 'You were removed from the Event.' }
     end
   end
   private

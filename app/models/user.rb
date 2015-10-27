@@ -12,6 +12,8 @@ class User < ActiveRecord::Base
 
 
 
+
+
   class << self
 
     def digest(string)

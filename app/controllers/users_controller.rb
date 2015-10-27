@@ -5,6 +5,7 @@ class UsersController < ApplicationController
     @user = current_user
     @posts = Post.user(current_user)
     @user_profile = User.find(params[:id])
+    @am_guest = Post.am_guest(params[:id])
   end
 
   def new

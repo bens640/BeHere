@@ -1,2 +1,33 @@
 h1.text-center Welcome to BeHere!
-= render 'posts/events_all'
+- if logged_in?
+  ul.nav.nav-pills
+    li.nav-item
+      a.nav-link.active data-toggle='tab' role='tab' href= '#all' All Events
+
+    li.nav-item
+      a.nav-link data-toggle='tab' role='tab' href= '#explore' Explore
+    li.nav-item
+      a.nav-link data-toggle='tab' role='tab' href= '#eat' Eat
+    li.nav-item
+      a.nav-link data-toggle='tab' role='tab' href= '#party' Party
+    li.nav-item
+      a.nav-link data-toggle='tab' role='tab' href= '#today' Today
+
+  br/
+  br/
+
+  .tab-content
+    .tab-pane.active#all role='tabpanel'
+      = render 'posts/events_all'
+    .tab-pane#explore role='tabpanel'
+      = render 'posts/explore'
+    .tab-pane#eat role='tabpanel'
+      = render 'posts/eat'
+    .tab-pane#party role='tabpanel'
+      = render 'posts/party'
+    .tab-pane#today role='tabpanel'
+      = render 'posts/today'
+
+  = form_tag(posts_path, :method => "get", id: "search-form") do
+    = text_field_tag :search, params[:search], placeholder: "Search Posts"
+    = submit_tag "Search"

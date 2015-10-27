@@ -5,6 +5,9 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+
+
 user = 10
 post = 10
 message = (post * user)/2
@@ -37,11 +40,22 @@ def get_time
 end
 
 
-User.create(name: 'Ben Shelomovitz', email: "1@2.com", password_digest: BCrypt::Password.create('123'))
+User.create(name: 'Ben Shelomovitz', email: "1@2.com", age: 28,
+            bio: 'Hi my name is Ben and I am the founder of BeHere. I am from Miami and have graduated Wyncode.',
+            profile_pic: Faker::Avatar.image('Ben'), home_state: 'florida', home_city: 'Miami', home_zip: 33160,
+            phone:'305-933-3313',
+            password_digest: BCrypt::Password.create('123'))
 user.times do |x|
   User.create(
           name: Faker::Name.name,
           email: "#{x+1}@#{x+1}.com",
+          age: 13 + rand(30),
+          bio: Faker::Lorem.paragraph,
+          profile_pic: Faker::Avatar.image(Faker::Name.name),
+          home_state: Faker::Address.state,
+          home_city:Faker::Address.city,
+          home_zip:Faker::Address.zip,
+          phone: Faker::PhoneNumber.phone_number,
           password_digest: BCrypt::Password.create("#{x}"+"#{x}"+"#{x}")
   )
 

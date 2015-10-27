@@ -11,6 +11,30 @@
         = f.email_field :email, class: 'form-control'
     .row
       .col-lg-4.col-sm-offset-4
+        |Age
+        = f.number_field :age, class: 'form-control'
+    .row
+      .col-lg-4.col-sm-offset-4
+        |Bio
+        = f.text_area :bio, class: 'form-control'
+    .row
+      .col-lg-4.col-sm-offset-4
+        |Home State
+        = f.text_field :home_state, class: 'form-control'
+    .row
+      .col-lg-4.col-sm-offset-4
+        |Home City
+        = f.text_field :home_city, class: 'form-control'
+    .row
+      .col-lg-4.col-sm-offset-4
+        |Home Zip
+        = f.text_field :home_zip, class: 'form-control'
+    .row
+      .col-lg-4.col-sm-offset-4
+        |Phone Number
+        = f.telephone_field :home_zip, class: 'form-control'
+    .row
+      .col-lg-4.col-sm-offset-4
         |Password
         = f.password_field :password, class: 'form-control'
     .row

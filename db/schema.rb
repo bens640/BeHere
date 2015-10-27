@@ -51,6 +51,12 @@ ActiveRecord::Schema.define(version: 20151007184413) do
     t.string   "name"
     t.string   "email"
     t.integer  "age"
+    t.string   "home_state"
+    t.string   "home_zip"
+    t.string   "home_city"
+    t.text     "bio"
+    t.string   "profile_pic"
+    t.string   "phone"
     t.string   "password_digest"
     t.string   "remember_digest"
     t.datetime "created_at",      null: false

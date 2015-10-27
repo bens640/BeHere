@@ -16,14 +16,16 @@
 //= require turbolinks
 //= require pick
 //= require timepick
+//= require bootstrap/tab
 //= require_tree .
 //= require jquery.geocomplete
 
 function start_js() {
-    $('.datepicker').datepicker({
+    $('#datepicker').datepicker({
         selectMonths: true, // Creates a dropdown to control month
         selectYears: 15, // Creates a dropdown of 15 years to control year
-        autoclose: true
+        autoclose: true,
+        format: 'yyyy-mm-dd'
     });
 
     $('#timepicker').timepicker();
@@ -67,6 +69,7 @@ function start_js() {
     });
 
 
+    $('').tab();
 }
 $(function() {
 });

@@ -9,9 +9,6 @@
       |Time:
       = ' ' + @post.time
     li.list-group-item
-      |Owner:
-      = ' ' + @post.user.name.to_s
-    li.list-group-item
       |Guests:
       -if @post.guests.count > 0
         - guest_list(@post.guests).each do |g|
@@ -21,8 +18,8 @@
       |Location:
       = ' ' + @post.location.to_s
     li.list-group-item
-      |Over21?
-      = ' ' + @post.over21.to_s
+      |This Event is
+      = ' ' + is_over21(@post.over21)
     li.list-group-item
       |Event Type:
       = ' ' + @post.event_type.to_s
