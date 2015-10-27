@@ -1,0 +1,231 @@
+/* line 6, /Users/benshelomovitz/BH/bh/app/assets/stylesheets/posts.scss */
+#map {
+  width: 400px;
+  height: 400px;
+  border: 1px black;
+  margin-right: 20px;
+}
+
+/* line 13, /Users/benshelomovitz/BH/bh/app/assets/stylesheets/posts.scss */
+#location-info {
+  width: 300px;
+  height: 400px;
+  border: 1px solid black;
+}
+
+/* line 20, /Users/benshelomovitz/BH/bh/app/assets/stylesheets/posts.scss */
+#geo-input {
+  width: 200px;
+}
+
+/* line 24, /Users/benshelomovitz/BH/bh/app/assets/stylesheets/posts.scss */
+.map-wrap {
+  display: inline-flex;
+}
+
+/* line 27, /Users/benshelomovitz/BH/bh/app/assets/stylesheets/posts.scss */
+.map-wrap {
+  display: inline-flex;
+}
+/* line 1, /Users/benshelomovitz/BH/bh/app/assets/stylesheets/scaffolds.scss */
+body {
+  background-color: #fff;
+  color: #333;
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+/* line 9, /Users/benshelomovitz/BH/bh/app/assets/stylesheets/scaffolds.scss */
+p, ol, ul, td {
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+/* line 15, /Users/benshelomovitz/BH/bh/app/assets/stylesheets/scaffolds.scss */
+pre {
+  background-color: #eee;
+  padding: 10px;
+  font-size: 11px;
+}
+
+/* line 35, /Users/benshelomovitz/BH/bh/app/assets/stylesheets/scaffolds.scss */
+div.field, div.actions {
+  margin-bottom: 10px;
+}
+
+/* line 40, /Users/benshelomovitz/BH/bh/app/assets/stylesheets/scaffolds.scss */
+#notice {
+  color: green;
+}
+
+/* line 44, /Users/benshelomovitz/BH/bh/app/assets/stylesheets/scaffolds.scss */
+.field_with_errors {
+  padding: 2px;
+  background-color: red;
+  display: table;
+}
+
+/* line 50, /Users/benshelomovitz/BH/bh/app/assets/stylesheets/scaffolds.scss */
+#error_explanation {
+  width: 450px;
+  border: 2px solid red;
+  padding: 7px;
+  padding-bottom: 0;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+}
+/* line 58, /Users/benshelomovitz/BH/bh/app/assets/stylesheets/scaffolds.scss */
+#error_explanation h2 {
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 5px 5px 15px;
+  font-size: 12px;
+  margin: -7px;
+  margin-bottom: 0px;
+  background-color: #c00;
+  color: #fff;
+}
+/* line 69, /Users/benshelomovitz/BH/bh/app/assets/stylesheets/scaffolds.scss */
+#error_explanation ul li {
+  font-size: 12px;
+  list-style: square;
+}
+/* line 1, /Users/benshelomovitz/BH/bh/app/assets/stylesheets/session.scss */
+.datepicker.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  float: left;
+  display: none;
+  min-width: 160px;
+  list-style: none;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+  *border-right-width: 2px;
+  *border-bottom-width: 2px;
+  color: #333333;
+  font-size: 13px;
+  line-height: 1.42857143;
+}
+
+/* line 26, /Users/benshelomovitz/BH/bh/app/assets/stylesheets/session.scss */
+.datepicker.dropdown-menu th,
+.datepicker.datepicker-inline th,
+.datepicker.dropdown-menu td,
+.datepicker.datepicker-inline td {
+  padding: 0px 5px;
+}
+/* line 1, /Users/benshelomovitz/BH/bh/app/assets/stylesheets/timepick.scss */
+.ui-timepicker-wrapper {
+  overflow-y: auto;
+  height: 150px;
+  width: 6.5em;
+  background: #fff;
+  border: 1px solid #ddd;
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  outline: none;
+  z-index: 10001;
+  margin: 0;
+}
+
+/* line 15, /Users/benshelomovitz/BH/bh/app/assets/stylesheets/timepick.scss */
+.ui-timepicker-wrapper.ui-timepicker-with-duration {
+  width: 13em;
+}
+
+/* line 19, /Users/benshelomovitz/BH/bh/app/assets/stylesheets/timepick.scss */
+.ui-timepicker-wrapper.ui-timepicker-with-duration.ui-timepicker-step-30,
+.ui-timepicker-wrapper.ui-timepicker-with-duration.ui-timepicker-step-60 {
+  width: 11em;
+}
+
+/* line 24, /Users/benshelomovitz/BH/bh/app/assets/stylesheets/timepick.scss */
+.ui-timepicker-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* line 30, /Users/benshelomovitz/BH/bh/app/assets/stylesheets/timepick.scss */
+.ui-timepicker-duration {
+  margin-left: 5px;
+  color: #888;
+}
+
+/* line 34, /Users/benshelomovitz/BH/bh/app/assets/stylesheets/timepick.scss */
+.ui-timepicker-list:hover .ui-timepicker-duration {
+  color: #888;
+}
+
+/* line 38, /Users/benshelomovitz/BH/bh/app/assets/stylesheets/timepick.scss */
+.ui-timepicker-list li {
+  padding: 3px 0 3px 5px;
+  cursor: pointer;
+  white-space: nowrap;
+  color: #000;
+  list-style: none;
+  margin: 0;
+}
+
+/* line 47, /Users/benshelomovitz/BH/bh/app/assets/stylesheets/timepick.scss */
+.ui-timepicker-list:hover .ui-timepicker-selected {
+  background: #fff;
+  color: #000;
+}
+
+/* line 51, /Users/benshelomovitz/BH/bh/app/assets/stylesheets/timepick.scss */
+li.ui-timepicker-selected,
+.ui-timepicker-list li:hover,
+.ui-timepicker-list .ui-timepicker-selected:hover {
+  background: #1980EC;
+  color: #fff;
+}
+
+/* line 57, /Users/benshelomovitz/BH/bh/app/assets/stylesheets/timepick.scss */
+li.ui-timepicker-selected .ui-timepicker-duration,
+.ui-timepicker-list li:hover .ui-timepicker-duration {
+  color: #ccc;
+}
+
+/* line 62, /Users/benshelomovitz/BH/bh/app/assets/stylesheets/timepick.scss */
+.ui-timepicker-list li.ui-timepicker-disabled,
+.ui-timepicker-list li.ui-timepicker-disabled:hover,
+.ui-timepicker-list li.ui-timepicker-selected.ui-timepicker-disabled {
+  color: #888;
+  cursor: default;
+}
+
+/* line 69, /Users/benshelomovitz/BH/bh/app/assets/stylesheets/timepick.scss */
+.ui-timepicker-list li.ui-timepicker-disabled:hover,
+.ui-timepicker-list li.ui-timepicker-selected.ui-timepicker-disabled {
+  background: #f2f2f2;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+
