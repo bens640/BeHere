@@ -17,9 +17,8 @@
 //= require pick
 //= require timepick
 //= require bootstrap/tab
-//= require_tree .
 //= require jquery.geocomplete
-
+//= require_tree .
 function start_js() {
     $('#datepicker').datepicker({
         selectMonths: true, // Creates a dropdown to control month
