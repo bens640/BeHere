@@ -4,7 +4,6 @@
     <list default="true" id="df9b920d-c818-40ab-b3ca-2088a982d6b4" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$" afterPath="$PROJECT_DIR$" />
       <change type="MODIFICATION" beforePath="$USER_HOME$/Desktop/Wyncode/Projects/twif/app/views/layouts/application.html.erb" afterPath="$USER_HOME$/Desktop/Wyncode/Projects/twif/app/views/layouts/application.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.slim" afterPath="$PROJECT_DIR$/app/views/layouts/application.slim" />
       <change type="MODIFICATION" beforePath="$USER_HOME$/Desktop/Wyncode/Projects/twif/app/models/gif.rb" afterPath="$USER_HOME$/Desktop/Wyncode/Projects/twif/app/models/gif.rb" />
       <change type="MODIFICATION" beforePath="$USER_HOME$/Desktop/Wyncode/Projects/twif/app/views/twif/index.html.erb" afterPath="$USER_HOME$/Desktop/Wyncode/Projects/twif/app/views/twif/index.html.erb" />
       <change type="MODIFICATION" beforePath="$USER_HOME$/Desktop/Wyncode/Projects/twif/app/models/tweet.rb" afterPath="$USER_HOME$/Desktop/Wyncode/Projects/twif/app/models/tweet.rb" />
@@ -65,8 +64,8 @@
       <file leaf-file-name="application.slim" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/application.slim">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.254717">
-              <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+            <state vertical-scroll-proportion="0.24056605">
+              <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -1344,8 +1343,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.slim">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.254717">
-          <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+        <state vertical-scroll-proportion="0.24056605">
+          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
           <folding />
         </state>
       </provider>
