@@ -1,0 +1,37 @@
+br/
+
+-@posts.each do |x|
+  .full
+    .pill
+      =x.event_type
+    .place
+      .place-info
+        h4 = x.location
+        h5 = x.full_address
+    .usr-pic
+      img src=x.user.profile_pic
+    .event-info
+      .over-21
+        - if x.over21
+          |21+
+        - else
+          |All Ages
+      .name
+        |with
+        br/
+        =x.user.name
+      br/
+      = x.header
+    .event-bottom
+      .event-bottom-date
+        = x.date.to_formatted_s(:long)
+      - if current_user.id != Guest.where(post_id: x).where(user_id: current_user.id)
+        - if current_user.id != x.id
+          .bethere-button
+            =  form_for @new_guest do |f|
+              = f.hidden_field :post_id, value: x.id
+              = f.hidden_field :user_id, value: current_user.id
+              = f.submit 'Be There'
+        -else
+          .bethere-button
+            = link_to 'Close Event', x, data: {:confirm => 'Are you sure?'}, :method => :delete

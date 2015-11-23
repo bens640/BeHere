@@ -4,6 +4,8 @@ nav.navbar.navbar-dark.bg-inverse
     li.nav-item.active
       = link_to 'home', root_path, class: 'nav-link'
     li.nav-item
+      = link_to 'test', home_test_path, class: 'nav-link'
+    li.nav-item
       - if current_user
         = link_to 'New Event', new_post_path, class: 'nav-link'
     .pull-right
