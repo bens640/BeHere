@@ -6,6 +6,7 @@
       <change type="MODIFICATION" beforePath="$USER_HOME$/Desktop/Wyncode/Projects/twif/app/views/layouts/application.html.erb" afterPath="$USER_HOME$/Desktop/Wyncode/Projects/twif/app/views/layouts/application.html.erb" />
       <change type="MODIFICATION" beforePath="$USER_HOME$/Desktop/Wyncode/Projects/twif/app/models/gif.rb" afterPath="$USER_HOME$/Desktop/Wyncode/Projects/twif/app/models/gif.rb" />
       <change type="MODIFICATION" beforePath="$USER_HOME$/Desktop/Wyncode/Projects/twif/app/views/twif/index.html.erb" afterPath="$USER_HOME$/Desktop/Wyncode/Projects/twif/app/views/twif/index.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/posts/show.html.slim" afterPath="$PROJECT_DIR$/app/views/posts/show.html.slim" />
       <change type="MODIFICATION" beforePath="$USER_HOME$/Desktop/Wyncode/Projects/twif/app/models/tweet.rb" afterPath="$USER_HOME$/Desktop/Wyncode/Projects/twif/app/models/tweet.rb" />
       <change type="MODIFICATION" beforePath="$USER_HOME$/Desktop/Wyncode/Projects/twif/app/assets/stylesheets/twif.scss" afterPath="$USER_HOME$/Desktop/Wyncode/Projects/twif/app/assets/stylesheets/twif.scss" />
       <change type="MODIFICATION" beforePath="$USER_HOME$/Desktop/Wyncode/Projects/twif/app/controllers/twif_controller.rb" afterPath="$USER_HOME$/Desktop/Wyncode/Projects/twif/app/controllers/twif_controller.rb" />
@@ -50,20 +51,7 @@
               <provider selected="true" editor-type-id="text-editor">
                 <state vertical-scroll-proportion="0.4097117">
                   <caret line="36" column="70" selection-start-line="36" selection-start-column="70" selection-end-line="36" selection-end-column="70" />
-                  <folding>
-                    <marker date="1448294196000" expanded="true" signature="27:940" placeholder=".full" />
-                    <marker date="1448294196000" expanded="true" signature="37:62" placeholder=".pill" />
-                    <marker date="1448294196000" expanded="true" signature="67:143" placeholder=".place" />
-                    <marker date="1448294196000" expanded="true" signature="80:143" placeholder=".place-info" />
-                    <marker date="1448294196000" expanded="true" signature="148:189" placeholder=".usr-pic" />
-                    <marker date="1448294196000" expanded="true" signature="194:378" placeholder=".event-info" />
-                    <marker date="1448294196000" expanded="true" signature="212:292" placeholder=".over-21" />
-                    <marker date="1448294196000" expanded="true" signature="299:351" placeholder=".name" />
-                    <marker date="1448294196000" expanded="true" signature="383:940" placeholder=".event-bottom" />
-                    <marker date="1448294196000" expanded="true" signature="403:460" placeholder=".event-bottom-date" />
-                    <marker date="1448294196000" expanded="true" signature="594:804" placeholder=".bethere-button" />
-                    <marker date="1448294196000" expanded="true" signature="829:940" placeholder=".bethere-button" />
-                  </folding>
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -92,10 +80,10 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="test.scss" pinned="false" current-in-tab="true">
+          <file leaf-file-name="test.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/test.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.7397572">
+                <state vertical-scroll-proportion="-40.625">
                   <caret line="65" column="19" selection-start-line="65" selection-start-column="19" selection-end-line="65" selection-end-column="19" />
                   <folding />
                 </state>
@@ -112,11 +100,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="show.html.slim" pinned="false" current-in-tab="false">
+          <file leaf-file-name="show.html.slim" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/views/posts/show.html.slim">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-10.625">
-                  <caret line="17" column="6" selection-start-line="17" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+                <state vertical-scroll-proportion="0.23899849">
+                  <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -159,7 +147,6 @@
         <option value="$PROJECT_DIR$/app/assets/stylesheets/session.scss" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/timepick.js" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/timepick.scss" />
-        <option value="$PROJECT_DIR$/app/views/posts/show.html.slim" />
         <option value="$PROJECT_DIR$/db/migrate/20150929150150_create_posts.rb" />
         <option value="$PROJECT_DIR$/app/views/posts/_form.html.slim" />
         <option value="$PROJECT_DIR$/app/views/posts/_event.slim" />
@@ -193,6 +180,7 @@
         <option value="$PROJECT_DIR$/app/controllers/home_controller.rb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/test.scss" />
         <option value="$PROJECT_DIR$/app/views/home/test.slim" />
+        <option value="$PROJECT_DIR$/app/views/posts/show.html.slim" />
       </list>
     </option>
   </component>
@@ -1309,17 +1297,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/posts/show.html.slim">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.625">
-          <caret line="17" column="6" selection-start-line="17" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/test.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7397572">
+        <state vertical-scroll-proportion="-40.625">
           <caret line="65" column="19" selection-start-line="65" selection-start-column="19" selection-end-line="65" selection-end-column="19" />
           <folding />
         </state>
@@ -1329,20 +1309,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4097117">
           <caret line="36" column="70" selection-start-line="36" selection-start-column="70" selection-end-line="36" selection-end-column="70" />
-          <folding>
-            <marker date="1448294196000" expanded="true" signature="27:940" placeholder=".full" />
-            <marker date="1448294196000" expanded="true" signature="37:62" placeholder=".pill" />
-            <marker date="1448294196000" expanded="true" signature="67:143" placeholder=".place" />
-            <marker date="1448294196000" expanded="true" signature="80:143" placeholder=".place-info" />
-            <marker date="1448294196000" expanded="true" signature="148:189" placeholder=".usr-pic" />
-            <marker date="1448294196000" expanded="true" signature="194:378" placeholder=".event-info" />
-            <marker date="1448294196000" expanded="true" signature="212:292" placeholder=".over-21" />
-            <marker date="1448294196000" expanded="true" signature="299:351" placeholder=".name" />
-            <marker date="1448294196000" expanded="true" signature="383:940" placeholder=".event-bottom" />
-            <marker date="1448294196000" expanded="true" signature="403:460" placeholder=".event-bottom-date" />
-            <marker date="1448294196000" expanded="true" signature="594:804" placeholder=".bethere-button" />
-            <marker date="1448294196000" expanded="true" signature="829:940" placeholder=".bethere-button" />
-          </folding>
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/posts/show.html.slim">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.23899849">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
