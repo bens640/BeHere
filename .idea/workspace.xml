@@ -6,7 +6,6 @@
       <change type="MODIFICATION" beforePath="$USER_HOME$/Desktop/Wyncode/Projects/twif/app/views/layouts/application.html.erb" afterPath="$USER_HOME$/Desktop/Wyncode/Projects/twif/app/views/layouts/application.html.erb" />
       <change type="MODIFICATION" beforePath="$USER_HOME$/Desktop/Wyncode/Projects/twif/app/models/gif.rb" afterPath="$USER_HOME$/Desktop/Wyncode/Projects/twif/app/models/gif.rb" />
       <change type="MODIFICATION" beforePath="$USER_HOME$/Desktop/Wyncode/Projects/twif/app/views/twif/index.html.erb" afterPath="$USER_HOME$/Desktop/Wyncode/Projects/twif/app/views/twif/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/posts/show.html.slim" afterPath="$PROJECT_DIR$/app/views/posts/show.html.slim" />
       <change type="MODIFICATION" beforePath="$USER_HOME$/Desktop/Wyncode/Projects/twif/app/models/tweet.rb" afterPath="$USER_HOME$/Desktop/Wyncode/Projects/twif/app/models/tweet.rb" />
       <change type="MODIFICATION" beforePath="$USER_HOME$/Desktop/Wyncode/Projects/twif/app/assets/stylesheets/twif.scss" afterPath="$USER_HOME$/Desktop/Wyncode/Projects/twif/app/assets/stylesheets/twif.scss" />
       <change type="MODIFICATION" beforePath="$USER_HOME$/Desktop/Wyncode/Projects/twif/app/controllers/twif_controller.rb" afterPath="$USER_HOME$/Desktop/Wyncode/Projects/twif/app/controllers/twif_controller.rb" />
@@ -100,20 +99,20 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="show.html.slim" pinned="false" current-in-tab="true">
+          <file leaf-file-name="show.html.slim" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/views/posts/show.html.slim">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.21623673">
+                <state vertical-scroll-proportion="-11.875">
                   <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="home_controller.rb" pinned="false" current-in-tab="false">
+          <file leaf-file-name="home_controller.rb" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/controllers/home_controller.rb">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
+                <state vertical-scroll-proportion="0.17883755">
                   <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
                   <folding />
                 </state>
@@ -1162,14 +1161,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="54" column="37" selection-start-line="54" selection-start-column="37" selection-end-line="54" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/assets/application-6734332370540be9ceb132c870919dfaa738d9eb52a012dac5ab024608c5c4e9.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.6466789">
@@ -1289,14 +1280,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/home_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/test.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-40.625">
@@ -1315,8 +1298,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/posts/show.html.slim">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21623673">
+        <state vertical-scroll-proportion="-11.875">
           <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6035768">
+          <caret line="54" column="37" selection-start-line="54" selection-start-column="37" selection-end-line="54" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/home_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17883755">
+          <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
           <folding />
         </state>
       </provider>
