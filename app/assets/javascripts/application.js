@@ -37,7 +37,7 @@
             details: '#location-info',
             detailsAttribute: 'data-geo',
             country: 'us'
-   };
+    };
 
     $('#geo-input').geocomplete( options).bind('geocode:result', function(event, result){
         console.log(result);
@@ -73,4 +73,4 @@
 $(function() {
 });
 
-$(document).on('ready page:load', start_js);
+//$(document).on('ready page:load', start_js);

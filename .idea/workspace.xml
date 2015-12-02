@@ -6,7 +6,6 @@
       <change type="MODIFICATION" beforePath="$USER_HOME$/Desktop/Wyncode/Projects/twif/app/views/layouts/application.html.erb" afterPath="$USER_HOME$/Desktop/Wyncode/Projects/twif/app/views/layouts/application.html.erb" />
       <change type="MODIFICATION" beforePath="$USER_HOME$/Desktop/Wyncode/Projects/twif/app/models/gif.rb" afterPath="$USER_HOME$/Desktop/Wyncode/Projects/twif/app/models/gif.rb" />
       <change type="MODIFICATION" beforePath="$USER_HOME$/Desktop/Wyncode/Projects/twif/app/views/twif/index.html.erb" afterPath="$USER_HOME$/Desktop/Wyncode/Projects/twif/app/views/twif/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/jquery.geocomplete.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/jquery.geocomplete.js" />
       <change type="MODIFICATION" beforePath="$USER_HOME$/Desktop/Wyncode/Projects/twif/app/models/tweet.rb" afterPath="$USER_HOME$/Desktop/Wyncode/Projects/twif/app/models/tweet.rb" />
       <change type="MODIFICATION" beforePath="$USER_HOME$/Desktop/Wyncode/Projects/twif/app/assets/stylesheets/twif.scss" afterPath="$USER_HOME$/Desktop/Wyncode/Projects/twif/app/assets/stylesheets/twif.scss" />
       <change type="MODIFICATION" beforePath="$USER_HOME$/Desktop/Wyncode/Projects/twif/app/controllers/twif_controller.rb" afterPath="$USER_HOME$/Desktop/Wyncode/Projects/twif/app/controllers/twif_controller.rb" />
@@ -33,7 +32,7 @@
     <favorites_list name="bh" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.48031497">
+    <splitter split-orientation="horizontal" split-proportion="0.40419948">
       <split-first>
         <leaf>
           <file leaf-file-name="development.rb" pinned="false" current-in-tab="false">
@@ -63,8 +62,8 @@
           <file leaf-file-name="jquery.geocomplete.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/assets/javascripts/jquery.geocomplete.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-12.265625">
-                  <caret line="26" column="18" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
+                <state vertical-scroll-proportion="0.0390625">
+                  <caret line="549" column="0" selection-start-line="549" selection-start-column="0" selection-end-line="549" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -74,7 +73,7 @@
             <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state vertical-scroll-proportion="0.0">
-                  <caret line="30" column="19" selection-start-line="23" selection-start-column="18" selection-end-line="30" selection-end-column="19" />
+                  <caret line="75" column="0" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
                   <folding>
                     <element signature="n#!!doc" expanded="true" />
                   </folding>
@@ -141,8 +140,8 @@
         <option value="$PROJECT_DIR$/app/views/home/test.slim" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/test.scss" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.slim" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/jquery.geocomplete.js" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
       </list>
     </option>
   </component>
@@ -1236,7 +1235,7 @@
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="30" column="19" selection-start-line="23" selection-start-column="18" selection-end-line="30" selection-end-column="19" />
+          <caret line="75" column="0" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
@@ -1245,8 +1244,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/jquery.geocomplete.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.265625">
-          <caret line="26" column="18" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
+        <state vertical-scroll-proportion="0.0390625">
+          <caret line="549" column="0" selection-start-line="549" selection-start-column="0" selection-end-line="549" selection-end-column="0" />
           <folding />
         </state>
       </provider>
