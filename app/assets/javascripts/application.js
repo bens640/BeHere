@@ -9,37 +9,34 @@
 //
 // Read Sprockets README (https://github.com/rails/sprockets#sprockets-directives) for details
 // about supported directives.
-//
+
 //= require jquery
 //= require jquery_ujs
 //= require jquery-ui
-//= require jquery.geocomplete
 //= require turbolinks
 //= require pick
 //= require timepick
-//= require bootstrap/tab
 //= require_tree .
+// = require jquery.geocomplete
 
 
+        function start_js() {
+        $('#datepicker').datepicker({
+            selectMonths: true, // Creates a dropdown to control month
+            selectYears: 15, // Creates a dropdown of 15 years to control year
+            autoclose: true,
+            format: 'yyyy-mm-dd'
+        });
+
+        $('#timepicker').timepicker();
 
 
-function start_js() {
-    $('#datepicker').datepicker({
-        selectMonths: true, // Creates a dropdown to control month
-        selectYears: 15, // Creates a dropdown of 15 years to control year
-        autoclose: true,
-        format: 'yyyy-mm-dd'
-    });
-
-    $('#timepicker').timepicker();
-
-
-    var options = {
-       map: '#map',
-       types: 'establishment',
-       details: '#location-info',
-       detailsAttribute: 'data-geo',
-       country: 'us'
+        var options = {
+            map: '#map',
+            types: 'establishment',
+            details: '#location-info',
+            detailsAttribute: 'data-geo',
+            country: 'us'
    };
 
     $('#geo-input').geocomplete( options).bind('geocode:result', function(event, result){
@@ -62,7 +59,7 @@ function start_js() {
         var loc_full = $('#loc-full-id').text();
         $('#post_location').val(loc_nam);
         $('#post_city').val(loc_city);
-        $('#post_full_address').val(loc_full)
+        $('#post_full_address').val(loc_full);
         console.log(loc_nam);
 
     });
@@ -72,7 +69,6 @@ function start_js() {
     });
 
 
-    $('').tab();
 }
 $(function() {
 });
