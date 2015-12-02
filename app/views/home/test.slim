@@ -24,7 +24,7 @@ br/
     .event-bottom
       .event-bottom-date
         = x.date.to_formatted_s(:long)
-      - if current_user
+      - if current_user .id != Guest.where(post_id: x).where(user_id: current_user.id)
         - if current_user.id != x.id
           .bethere-button
             =  form_for @new_guest do |f|
